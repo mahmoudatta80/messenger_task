@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "435345511225",
+    "project_id": "messenger-task",
+    "storage_bucket": "messenger-task.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:435345511225:android:ff26ab29d1f6cff3814ee8",
+        "android_client_info": {
+          "package_name": "com.flutter.messenger.messenger_task"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDzBbITAt485FdZm7c9Q2_xVT2v4yB3tYA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
