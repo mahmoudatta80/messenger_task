@@ -1,14 +1,13 @@
 import 'package:flutter/material.dart';
 import 'package:messenger_task/core/routes/routes.dart';
-import 'package:messenger_task/features/auth/presentation/ui/views/profile_view.dart';
-import 'package:messenger_task/features/auth/presentation/ui/widgets/code_provider.dart';
-import 'package:messenger_task/features/auth/presentation/ui/widgets/phone_provider.dart';
-import 'package:messenger_task/features/auth/presentation/ui/widgets/profile_provider.dart';
-import 'package:messenger_task/features/chat/presentation/ui/widgets/chat_provider.dart';
-import 'package:messenger_task/features/home/data/models/user_model.dart';
-import 'package:messenger_task/features/home/presentation/ui/views/account_view.dart';
-import 'package:messenger_task/features/home/presentation/ui/views/apperance_view.dart';
-import 'package:messenger_task/features/home/presentation/ui/views/home_view.dart';
+import 'package:messenger_task/features/auth/view/widgets/code_provider.dart';
+import 'package:messenger_task/features/auth/view/widgets/phone_provider.dart';
+import 'package:messenger_task/features/auth/view/widgets/profile_provider.dart';
+import 'package:messenger_task/features/chat/view/widgets/chat_provider.dart';
+import 'package:messenger_task/features/home/model/user_model.dart';
+import 'package:messenger_task/features/home/view/views/account_view.dart';
+import 'package:messenger_task/features/home/view/views/apperance_view.dart';
+import 'package:messenger_task/features/home/view/views/home_view.dart';
 import 'package:messenger_task/features/start/start_view.dart';
 
 class AppRouter {

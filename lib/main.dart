@@ -8,8 +8,7 @@ import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:messenger_task/core/utils/constant.dart';
 import 'package:messenger_task/core/utils/dependency_injection.dart';
 import 'package:messenger_task/core/utils/shared_preferences.dart';
-import 'package:messenger_task/features/home/presentation/logic/apperance_cubit/apperance_cubit.dart';
-import 'package:messenger_task/features/start/start_view.dart';
+import 'package:messenger_task/features/home/view_model/cubit/apperance_cubit/apperance_cubit.dart';
 import 'package:messenger_task/firebase_options.dart';
 
 void main() async {

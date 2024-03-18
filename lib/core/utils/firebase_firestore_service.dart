@@ -1,6 +1,6 @@
 import 'package:cloud_firestore/cloud_firestore.dart';
-import 'package:messenger_task/features/chat/data/model/message_model.dart';
-import 'package:messenger_task/features/home/data/models/user_model.dart';
+import 'package:messenger_task/features/chat/model/message_model.dart';
+import 'package:messenger_task/features/home/model/user_model.dart';
 
 class FirebaseFireStoreService {
   final String users = 'users';
