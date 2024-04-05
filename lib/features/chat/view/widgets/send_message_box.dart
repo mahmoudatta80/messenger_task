@@ -34,8 +34,7 @@ class SendMessageBox extends StatelessWidget {
                 if (context.read<SendMessageCubit>().textController.text !=
                     '') {
                   MessageModel messageModel = MessageModel(
-                    date:
-                        DateFormat('hh:mm a').format(DateTime.now()).toString(),
+                    date: DateTime.now().toString(),
                     senderId: Constant.id,
                     receiverId: receiverId,
                     text: context.read<SendMessageCubit>().textController.text,

@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
+import 'package:intl/intl.dart' as intl;
 import 'package:messenger_task/core/styles/colors.dart';
 import 'package:messenger_task/core/styles/text_styles.dart';
 import 'package:messenger_task/features/chat/model/message_model.dart';
@@ -35,7 +36,7 @@ class BuildMyMessage extends StatelessWidget {
             ),
             SizedBox(height: 8.h),
             Text(
-              messageModel.date,
+              intl.DateFormat('hh:mm a').format(intl.DateFormat().parse(messageModel.date)).toString(),
               style: MyTextStyles.font12Weight400.copyWith(
                 color: MyColors.formFieldTextStyleColor,
               ),
